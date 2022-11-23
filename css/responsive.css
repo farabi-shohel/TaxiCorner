@@ -1,0 +1,512 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/*navbar start*/
+header {
+    padding: 6px 0;
+}
+.logo img{
+	width: 70%;
+}
+/*navbar End*/
+
+/*Slider Start*/
+.slider {
+    padding: 55px 0 60px;
+}
+.slider-text h5 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.slider-text h1 {
+    font-size: 21px;
+    line-height: 30px;
+}
+.slider-text p {
+    margin: 12px 0 25px;
+    font-size: 15px;
+}
+.btn-y {
+    padding: 5px 20px;
+}
+.slider-img img {
+    width: 75%;
+    display: block;
+    margin: 20px auto 0px;
+}
+.s-indicator {
+    bottom: -60px;
+}
+/*Slider End*/
+
+/*About start*/
+.about {
+    padding: 40px 0 50px;
+}
+.common-title p{
+	font-size: 15px;
+}
+.title-mb {
+    margin-bottom: 40px;
+}
+.about-text h2{
+	font-size: 20px;
+}
+.about-text h5 {
+    margin: 12px 0 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.about-text p{
+	font-size: 15px;
+}
+.about-text .btn-b{
+	margin-bottom: 30px;
+	padding: 7px 18px;
+}
+/*About End*/
+
+/*Service Start*/
+.service {
+    padding: 40px 0;
+}
+.common-title h2 {
+    font-size: 28px;
+}
+/*Service End*/
+
+/*Feature Start*/
+.feature{
+	padding: 50px 0;
+}
+.common-title h2 {
+    font-size: 22px;
+}
+.feature-content{
+	padding: 20px 0 10px;
+}
+.feature-content h3 {
+    font-size: 20px;
+}
+.feature-content ul li span {
+    font-size: 13px;
+}
+.feature-content ul li i{
+	margin-right: 5px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 15px;
+}
+.f-btn {
+    margin-top: 0;
+    padding: 7px 16px;
+    font-size: 14px;
+}
+.feature-img img{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+.f-indicator {
+    bottom: -45px;
+}
+.f-indicator [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+}
+/*Feature End*/
+
+/*Counter Start*/
+.counter-section {
+    padding: 5px 0 50px;
+}
+.counter-single h2 {
+    margin: 11px 0 8px;
+    font-size: 32px;
+}
+/*Counter End*/
+
+/*Booking start*/
+.make-appoinment{
+    padding: 45px 0;
+}
+.booking-form{
+    margin-top: 30px;
+}
+/*Booking end*/
+
+/*Testimonial start*/
+.testimonial {
+    padding: 50px 0 40px;
+}
+.client-item .client-text p{
+    padding: 20px 0px 20px 10px;
+    margin-bottom: 15px;
+}
+.client-info .c-img{
+	margin-right: 15px;
+}
+.client-info .c-img img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.client-details p{
+	margin: 5px 0 !important;
+}
+.square-shape{
+	bottom: 237px;
+}
+.t-indicator {
+    bottom: -50px;
+}
+/*Testimonial end*/
+
+/*Blog Start*/
+.blog {
+    padding: 40px 0;
+}
+/*Blog End*/
+
+/*Contact Start*/
+.contact {
+    padding: 50px 0;
+}
+.c-top {
+    margin-top: 20px;
+}
+.contact-form .c-title{
+	margin-bottom: 20px;
+}
+.btn-contact {
+    margin-top: 5px;
+}
+.g-map iframe{
+	width: 100%;
+	height: 250px;
+}
+/*Contact end*/
+
+/*Footer Start*/
+.footer-top {
+    padding: 30px 0 20px;
+}
+.fw-title {
+    margin-bottom: 18px;
+}
+.footer-widget {
+    margin-top: 16px;
+}
+/*Footer End*/
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*Slider Start*/
+.slider {
+    padding: 65px 0 60px;
+}
+.slider-text h5 {
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+.slider-text h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.slider-text p {
+    margin: 12px 0 30px;
+}
+.btn-y {
+    padding: 8px 25px;
+}
+.slider-img img {
+    width: 75%;
+    display: block;
+    margin: 20px auto 0px;
+}
+.s-indicator {
+    bottom: -60px;
+}
+/*Slider End*/
+
+/*About start*/
+.about {
+    padding: 50px 0;
+}
+.title-mb {
+    margin-bottom: 40px;
+}
+.about-text h5 {
+    margin: 12px 0 10px;
+    font-size: 16px;
+}
+.about-text p{
+	font-size: 15px;
+}
+.about-text .btn-b{
+	margin-bottom: 30px;
+}
+/*About End*/
+
+/*Service Start*/
+.service {
+    padding: 50px 0;
+}
+/*Service End*/
+
+/*Feature Start*/
+.feature{
+	padding: 50px 0;
+}
+.common-title h2 {
+    font-size: 28px;
+}
+.feature-content{
+	padding: 20px 10px 20px 10px;
+}
+.feature-content h3 {
+    font-size: 25px;
+}
+.feature-content ul li span {
+    font-size: 15px;
+}
+.feature-content ul li i{
+	margin-right: 12px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+}
+.f-btn {
+    margin-top: 0;
+    padding: 8px 18px;
+}
+.feature-img img{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+/*Feature End*/
+
+/*Counter Start*/
+.counter-single h2 {
+    margin: 11px 0 8px;
+    font-size: 35px;
+}
+/*Counter End*/
+
+/*Booking start*/
+.make-appoinment{
+    padding: 55px 0;
+}
+.booking-form{
+    margin-top: 30px;
+}
+/*Booking end*/
+
+/*Testimonial start*/
+.testimonial {
+    padding: 50px 0 40px;
+}
+.client-item .client-text p{
+    padding: 20px 0px 20px 10px;
+    margin-bottom: 15px;
+}
+.client-info .c-img{
+	margin-right: 15px;
+}
+.client-info .c-img img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.client-details p{
+	margin: 5px 0 !important;
+}
+.square-shape{
+	bottom: 105px;
+}
+.t-indicator {
+    bottom: -50px;
+}
+/*Testimonial end*/
+
+/*Blog Start*/
+.blog {
+    padding: 50px 0;
+}
+/*Blog End*/
+
+/*Contact Start*/
+.contact {
+    padding: 50px 0;
+}
+.contact-form .c-title{
+	margin-bottom: 20px;
+}
+.btn-contact {
+    margin-top: 5px;
+}
+.g-map iframe{
+	width: 100%;
+	height: 300px;
+}
+/*Contact end*/
+
+/*Footer Start*/
+.footer-top {
+    padding: 30px 0 20px;
+}
+.fw-title {
+    margin-bottom: 20px;
+}
+.footer-widget {
+    margin-top: 16px;
+}
+/*Footer End*/
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*Slider Start*/
+.slider {
+    padding: 80px 0 60px;
+}
+.slider-text h5 {
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+.slider-text h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.slider-text p {
+    margin: 12px 0 30px;
+}
+.btn-y {
+    padding: 8px 25px;
+}
+.slider-img img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+.s-indicator {
+    bottom: -60px;
+}
+/*Slider End*/
+
+/*About Start*/
+.about {
+    padding: 60px 0;
+}
+.about-text h2 {
+    font-size: 24px;
+}
+.about-text h5 {
+    margin: 10px 0 15px;
+    font-size: 15px;
+}
+.about-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+/*About End*/
+
+/*Service Start*/
+.service {
+    padding: 55px 0;
+}
+/*Service End*/
+
+/*Feature Start*/
+.feature{
+	padding: 60px 0;
+}
+.feature-content {
+    padding: 10px 0 20px 5px;
+}
+.feature-content h3{
+	font-size: 24px;
+	font-weight: 600;
+}
+.feature-content ul li i {
+    margin-right: 8px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+}
+.feature-content ul li span {
+    font-size: 14px;
+}
+.f-btn {
+    margin-top: 0;
+    padding: 8px 18px;
+}
+/*Feature End*/
+
+/*Counter Start*/
+.counter-single h2 {
+    margin: 11px 0 8px;
+    font-size: 35px;
+}
+/*Counter End*/
+
+/*Booking start*/
+.make-appoinment{
+	padding: 55px 0;
+}
+.booking-form{
+	margin-top: 30px;
+}
+/*Booking end*/
+
+/*Testimonial Start*/
+.common-title h2 {
+    font-size: 30px;
+}
+/*Testimonial End*/
+
+/*Blog Start*/
+.blog {
+    padding: 60px 0;
+}
+/*Blog End*/
+
+/*Footer Start*/
+.footer-top {
+    padding: 30px 0 20px;
+    background: #161616;
+}
+.fw-title {
+    margin-bottom: 25px;
+}
+.footer-widget {
+    margin-top: 20px;
+}
+/*Footer End*/
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

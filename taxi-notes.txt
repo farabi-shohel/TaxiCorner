@@ -1,0 +1,15 @@
+Taxicorner website important notes >>>>>>
+
+-----------------------------------------
+Fonts >>>>
+	Body -  font-family: 'Mulish', sans-serif;
+	heading - font-family: 'Roboto', sans-serif;
+			  
+			  
+
+Colors >>>>>
+	yellow #FFC000;
+	dark   #333333; #161616
+body color #777; #F5F5F5;
+
+footer     #0C0C0C;

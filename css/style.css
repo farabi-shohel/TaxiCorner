@@ -1,0 +1,542 @@
+/*======== COMMON CSS STYLE START =======*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Mulish', sans-serif;
+	color: #777;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+/*======== COMMON CSS STYLE END =======*/
+
+/*======== NAVBAR CSS  START =======*/
+header{
+	padding: 10px 0;
+	background: #333333;
+}
+.taxi-menu ul li{
+	margin-right: 25px;
+}
+.taxi-menu ul li:last-child{
+	margin-right: 0;
+}
+.taxi-menu ul li a{
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Mulish', sans-serif;
+	transition: 0.33s ease all;
+}
+.taxi-menu ul li a:hover{
+	color: #FFC000 !important;
+
+}
+/*======== NAVBAR CSS  END =======*/
+
+/*======== SLIDER CSS START =======*/
+.slider{
+	background: url(../images/4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 180px 0 150px;
+}
+.slider::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.slider-text{
+/*	position: relative;*/
+	color: #fff;
+}
+.slider-text h5{
+	margin-bottom: 17px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.slider-text h1{
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+.slider-text h1 span{
+	color: #FFC000;
+}
+.slider-text p{
+	margin: 15px 0 40px;
+}
+.btn-y{
+	background: #FFC000;
+	padding: 10px 35px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+.btn-y:hover{
+	color: #000000;
+}
+.slider-img img{
+	width: 100%;
+}
+.s-indicator {
+    bottom: -80px;
+}
+.s-indicator [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    background-color: #ffc000;
+}
+/*======== SLIDER CSS  END =======*/
+
+/*======== ABOUT CSS START =======*/
+.about{
+	padding: 80px 0;
+}
+.common-title h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #333333;
+}
+.common-title h2 span{
+	color: #FFC000;
+}
+.title-mb{
+	margin-bottom: 50px;
+}
+.about-text h2{
+	margin: 0;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFC000;
+}
+.about-text p{
+	margin-bottom: 20px;
+}
+.about-text h5{
+	margin: 15px 0 15px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	color: #595555;
+}
+.about-text .btn-b{
+	background: #FFC000;
+	padding: 10px 25px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+/*======== ABOUT CSS  END =======*/
+
+/*======== SERVICE CSS START =======*/
+.service{
+	padding: 80px 0;
+	background: #F5F5F5;
+}
+.service-single{
+	margin-top: 30px;
+	background: #fff;
+	padding: 25px 15px;
+	border-top: 2px solid #FFC000;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px 0px rgb(231 226 185 / 40%);
+	transition: 0.5s ease all;
+}
+.service-single:hover{
+	transform : translateY(-7px);
+}
+.service-single i{
+	font-size: 40px;
+	color: #FFC000;
+}
+.service-single h4{
+	margin: 15px 0 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #333333;
+}
+.service-single p{
+	margin: 0;
+	font-size: 15px;
+	color: #868686;
+}
+
+/*======== SERVICE CSS  END =======*/
+
+/*======== FEATURE CSS START =======*/
+.feature{
+	padding: 80px 0;
+}
+.shadow{
+	box-shadow: 10px 10px 30px #dcdcdc;
+/*box-shadow: 0 0.5rem 1rem rgb(255 188 25 / 25%) !important;*/
+}
+.feature-content{
+	padding: 10px 0 20px 10px;
+}
+.feature-content h3{
+	color: #333333;
+	font-size: 28px;
+	font-weight: 700;
+}
+.feature-content ul li{
+	width: 50%;
+	float: left;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.feature-content ul li i{
+	margin-right: 12px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 20px;
+	background: #0C0C0C;
+	color: #FFC000;
+	text-align: center;
+}
+.feature-content ul li span{
+	font-size: 16px;
+	color: #333333;
+	font-weight: 600;
+}
+.f-btn{
+	margin-top: 10px;
+	background: #FFC000;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 11px 27px;
+	transition: 0.33s ease all;
+	border-radius: 0;
+}
+.f-btn:hover{
+	background: #0C0C0C;
+	color: #fff;
+}
+.f-indicator {
+    bottom: -60px;
+}
+.f-indicator [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    background-color: #ffc000;
+}
+/*======== FEATURE CSS  END =======*/
+
+/*======== COUNTER CSS START =======*/
+.counter-section{
+	padding: 40px 0 80px;
+	background: url(../images/c-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.counter-section::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(12 11 3 / 50%);
+}
+.counter-single{
+	position: relative;
+	margin-top: 40px;
+}
+.counter-single i{
+	font-size: 40px;
+	color: #FFC000;
+}
+.counter-single h2{
+	margin: 15px 0 12px;
+	font-size: 42px;
+	color: #fff;
+	font-weight: 700;
+}
+.counter-single h5{
+	margin: 0;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+}
+/*======== COUNTER CSS  END =======*/
+
+/*==== POPULAR CSS START ====*/
+.p-service{
+	padding: 80px 0;
+}
+/*===== image hover ======*/
+.popular-single{margin-top: 20px;position:relative;transition:all .2s ease-out 0s}
+.popular-single .box-content,.popular-single:after{position:absolute;left:20px;right:20px}
+.popular-single:after{content:"";display:block;background: #cd8400e0;top:20px;bottom:20px;opacity:0;transform:rotate3d(-1,1,0,100deg);transition:all .4s ease-in-out 0s}
+.popular-single:hover:after{opacity:.9;transform:rotate3d(0,0,0,0deg)}
+.popular-single img{width:100%;height:auto}
+.popular-single .box-content{top:45%;opacity:0;z-index:1;-webkit-transform:translate(10%,-30%);transform:translate(10%,-30%);transition:all .2s ease-out 0s}
+.popular-single:hover .box-content{opacity:1;transform:translate(0,-50%);transition-delay:.2s}
+.popular-single .post{display:block;font-size:15px;color:#f7f7b9;margin-bottom:10px}
+
+.booking-btn{
+	background: #0C0C0C;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 0;
+	transition: o.3s ease all;
+}
+.booking-btn:hover{
+	background: #fff;
+	color: #333333;
+}
+.bottom-title h4{
+	background: #FFC000;
+	padding: 12px 0;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+/*==== POPULAR CSS END ====*/
+
+/*======== TESTIMONIAL CSS START =======*/
+.testimonial{
+	padding: 50px 0 80px;
+	background: #F5F5F5;
+}
+.c-title-mb{
+	margin-bottom: 10px;
+}
+.client-item{
+	margin-top: 30px;
+}
+.client-item .client-text p{
+	background: #fff;
+    box-shadow: 0px 0px 20px 0px rgb(225 214 133 / 40%);
+    padding: 30px 25px 30px 40px;
+    margin-bottom: 30px;
+    position: relative;
+    border-left: 2px solid #FFC000;
+}
+.square-shape{
+	 position: absolute;
+    left: 84px;
+    bottom: 132px;
+    height: 14px;
+    width: 14px;
+    background: #FFC000;
+    content: "";
+    transform: rotate(45deg);
+    box-shadow: 0px 3px 15px rgb(91 91 91 / 15%);
+}
+.client-info{
+	padding-left: 40px;
+}
+.client-info .c-img{
+	float: left;
+	margin-right: 30px;
+}
+.client-info .c-img img{
+	border-radius: 50%;
+}
+.client-info .client-details{
+	float: left;
+}
+.client-details h5{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 500;
+}
+.client-details p{
+	margin: 10px 0 !important;
+	font-style: italic;
+	font-size: 14px;
+}
+.c-rating ul li i{
+	font-size: 14px;
+	color: #f9c322;
+}
+.t-indicator {
+    bottom: -70px;
+    left: 0;
+}
+.t-indicator [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: #f9c322;
+}
+/*======== TESTIMONIAL CSS END =======*/
+
+/*======== BLOG CSS START =======*/
+.blog{
+	padding: 80px 0;
+}
+.blog-single{
+	margin-top: 40px;
+	box-shadow: rgb(0 0 0 / 10%) 0px 10px 240px;
+    transition: 0.5s;
+}
+.blog-single:hover{
+	transform: translateY(-7px);
+/*    box-shadow: 0px 0px 20px 0px rgb(245 224 67 / 40%);*/
+box-shadow: 0px 0px 20px 0px rgb(217 207 137 / 40%);
+    transition: 0.5s;
+}
+.blog-img{
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.iner-img{
+	transition: all 0.7s linear;
+}
+.iner-img:hover{
+	transform: scale(1.13) rotate(5deg);
+}
+.blog-img img{
+	width: 100%;
+}
+.blog-content{
+	padding: 0px 20px 40px;
+}
+.blog-content ul li i{
+	color: #FFC000;
+}
+.blog-content h5{
+	margin: 10px 0 15px;
+	color: #333333;
+}
+.blog-content p{
+	font-size: 15px;
+}
+.blog-btn{
+	background: #FFC000;
+	border: 1px solid #FFC000;
+	transition: 0.3s all ease;
+}
+.blog-btn:hover{
+	background: #0A0A0C;
+	border: 1px solid #0A0A0C;
+}
+/*======== BLOG CSS END =======*/
+
+/*======== CONTACT CSS START =======*/
+.contact{
+	padding: 60px 0;
+	background: #F5F5F5;
+}
+.c-top{
+	margin-top: 30px;
+}
+.contact-form .c-title{
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333333;
+}
+.btn-contact{
+	margin-top: 30px;
+	background: #FFC000;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 8px 0;
+	text-transform: uppercase;
+	width: 100%;
+	border-radius: 0;
+}
+.g-map iframe{
+	width: 100%;
+	height: 385px;
+}
+/*======== CONTACT CSS END =======*/
+
+/*===== Footer CSS Start ======*/
+.footer-top{
+	padding: 50px 0 40px;
+	background: #161616;
+}
+.footer-widget{
+	margin-top: 30px;
+}
+.social ul li a i{
+	font-size: 18px;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 50%;
+	color: #fff;
+	background: #000000;
+	border: 1px solid #000000;
+	text-align: center;
+	transition: 0.3s all ease;
+}
+.social ul li a i:hover{
+	background: #FFC000;
+	border: 1px solid #FFC000;
+
+}
+.fw-title{
+	padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.footer-widget p i{
+	color: #fff;
+    margin-right: 8px;
+}
+.footer-widget p{
+	font-size: 14px;
+}
+.explore p a{
+	text-decoration: none;
+	color: #666;
+	transition: 0.3s all ease;
+}
+.explore p a:hover{
+	color: #FFC000;
+	margin-left: 4px;
+}
+.newsletter-form{
+	margin: 30px 0 20px;
+}
+.btn-subscribe{
+	background: #FFC000;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.3s ease all;
+}
+.btn-subscribe:hover{
+	color: #fff;
+	background: transparent;
+	border:  1px solid #fff;
+}
+footer{
+	background: #0C0C0C;
+	padding: 30px 0;
+}
+.footer-text p{
+	margin: 0;
+
+}
+/*===== Footer CSS End =====*/
